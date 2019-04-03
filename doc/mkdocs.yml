@@ -9,6 +9,7 @@ markdown_extensions:
 
 nav:
 - Introdução: index.md
+- LEIAME: LEIAME.md
 - Aula 1 (2019-04-03): aula1.md
 - Aula 2 (2019-04-05): aula2.md
 
