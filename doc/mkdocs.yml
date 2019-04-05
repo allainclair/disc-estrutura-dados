@@ -15,7 +15,6 @@ nav:
 
 plugins:
   - search
-  - pdf-export
 
 site_name: Estrutura de dados
 site_description: Disciplina de estrutura de dados

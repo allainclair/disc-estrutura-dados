@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ed448b6-a74f-47c0-9f02-17176175d439" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/docs/aula1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/docs/aula1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/docs/aula2.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/docs/aula2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/aula1/aula1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula1/aula1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/aula1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/search/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/search/search_index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/sitemap.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,18 +11,55 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-839767825">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/docs/aula2.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nota.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -72,12 +103,14 @@
         <option value="$PROJECT_DIR$/doc/docs/aula1.md" />
         <option value="$PROJECT_DIR$/doc/docs/index.md" />
         <option value="$PROJECT_DIR$/doc/docs/aula2.md" />
+        <option value="$PROJECT_DIR$/nota.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1080" />
-    <option name="height" value="1920" />
+    <option name="y" value="27" />
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -91,17 +124,6 @@
             <path>
               <item name="disc-estrutura-dados" type="b2602c69:ProjectViewProjectNode" />
               <item name="disc-estrutura-dados" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disc-estrutura-dados" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disc-estrutura-dados" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disc-estrutura-dados" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disc-estrutura-dados" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,10 +166,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1080" height="1920" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20251939" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20561457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -168,14 +190,10 @@
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="105" selection-start-line="105" selection-end-line="106" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -200,21 +218,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/docs/LEIAME.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="465">
-            <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/docs/aula1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="825">
             <caret line="55" selection-start-line="55" selection-end-line="55" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/docs/LEIAME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="465">
+            <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           </first_editor>
           <second_editor />
         </state>
@@ -230,15 +248,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc/docs/aula2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nota.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
