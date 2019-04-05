@@ -26,7 +26,7 @@ Escreve um programa que leia a idade de uma pessoa expressa em anos,
 meses e dias e mostre-a expressa apenas em dias.
 
 Transforme esse seu programa para uma função chamada `idade_dias(anos, 
-menses, dias)` que recebe os 3 argumentos respectivamente e retorne a idade 
+meses, dias)` que recebe os 3 argumentos respectivamente e retorne a idade 
 em dias.
 
 Obs.: assumir que todos anos tenham 365 dias e que todos os meses tenham 30 
