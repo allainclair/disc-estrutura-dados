@@ -23,7 +23,3 @@ if __name__ == '__main__':
     #print('finalizacao')
     valor_da_soma = soma(2, 3)
     print(valor_da_soma)
-
-
-
-
