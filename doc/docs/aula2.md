@@ -34,6 +34,8 @@ dias. (para facilitar o programa)
 
 Ex:
 
+PARAMOS AQUI no exercio idade.py
+
 ```
 Entrada: 10 (anos), 2 (meses), 3 (dias)
 Saída: -- 
