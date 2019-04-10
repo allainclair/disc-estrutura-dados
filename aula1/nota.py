@@ -4,10 +4,17 @@ def main():
     aprovacao(NF, MF)
 
 
-def aprovacao(NF, MF):
-    if NF >= 6.0:
+def funcao(param1, param2, param3):
+    #declaracao1
+    a = 1
+    print(1)
+    return a
+
+
+def aprovacao(nota_final, media_final):
+    if nota_final >= 6.0:
         print('aprovado')
-    elif MF >= 5.0:
+    elif media_final >= 5.0:
         print('aprovado por exame')
     else:
         print('reprovado')
