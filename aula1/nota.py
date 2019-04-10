@@ -24,6 +24,7 @@ def soma(a, b):
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     print('inicializacao', 'do programa')
     main()
     print('finalizacao')
@@ -31,3 +32,10 @@ if __name__ == '__main__':
 #print(valor_da_soma)
 
 
+=======
+    #print('inicializacao')
+    #main()
+    #print('finalizacao')
+    valor_da_soma = soma(2, 3)
+    print(valor_da_soma)
+>>>>>>> 48c36fc1ae28b06dd6914488e321f016704c758f

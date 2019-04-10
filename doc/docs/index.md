@@ -12,7 +12,9 @@
 ## Disciplina
 
 * **Site:** [https://allainclair.github.io/disc-estrutura-dados/](
-  https://allainclair.github.io/disc-estrutura-dados/)
+  https://allainclair.github.io/disc-estrutura-dados/);
+* Local: E90, sala 05;
+* Contato de turma: estatisticauem18@gmail.com.
 
 ## Avaliação (projeto)
 
