@@ -3,6 +3,8 @@
 ```Python tab=
 print('Print com mais do que um argumento', arg1, arg2)
 
+print('dez', 10, sep='')
+
 print('Uso do operador "percentage" para string: %s %s' % (string1, string2))
 
 # Python Version >= 3.7
@@ -11,10 +13,14 @@ print(f'Uma string com interpotalacao: {string}')
 
 print(
     'Evitar linhas de codigos muito extensas pois dificulta a leitura do seu '
-    'codigo, entao essa eh uma forma de vc quebrar a linha. Existe uma regra ' 
-    'de no maximo 79-80 colunas de codigo, tente usar ela, soh que nao tem ' 
-    'problema se passar de 80 ou chegar ateh umas 85 colunas. Essa formatacao ' 
+    'codigo, entao essa eh uma forma de vc quebrar a linha. Existe uma regra '
+    'de no maximo 79-80 colunas de codigo, tente usar ela, soh que nao tem '
+    'problema se passar de 80 ou chegar ateh umas 85 colunas. Essa formatacao '
     'de codigo desse print pode ser usada nos codigos tambem.')
+
+print(
+    'para quebrar a linha '
+    'use dessa forma')
 
 funcao(
     argumento1, argumento2, argumento3, argumento4, argumento5, argumento6,
@@ -24,7 +30,7 @@ funcao(
 ## Estrutura de dado **lista**
 
 Podemos chamar até de vetor, *array*, arranjo, sequência, pois uma lista tem
-uma **ordem definida** de elementos e os elementos de uma lista também **podem 
+uma **ordem definida** de elementos e os elementos de uma lista também **podem
 ser repetidos**.
 
 ```Python tab=
@@ -56,9 +62,9 @@ lista_de_numeros + lista_de_letras
 
 people_list.pop()
 'lucas'
-
 ```
 
+## PARAMOS AQUI!!!!!
 
 ## Estruturas de repetição **
 
@@ -77,9 +83,9 @@ for (i=0; i<n; i++) {
 }
 ```
 
-Um **iterador** é um "conjunto de elementos", podendo ser vazio, ter apenas um 
-elemento, ou mais do que um elemento. Se for vazio, o corpo (escopo) do `for` 
-não é executado. Caso contrário o corpo do `for` é executado em todos 
+Um **iterador** é um "conjunto de elementos", podendo ser vazio, ter apenas um
+elemento, ou mais do que um elemento. Se for vazio, o corpo (escopo) do `for`
+não é executado. Caso contrário o corpo do `for` é executado em todos
 elementos do iterador.
 
 ```Python tab=
@@ -143,11 +149,11 @@ for i in range(tamanho):
 # Alernativa mais elegante.
 for elemento in vetor:
     print('Elemento: %s', elemento)
-    
+
 # Alernativa elegante enumerada.
 for i, elemento in enumerate(vetor):
     print('Elemento %s: %s', (i, elemento))
-    
+
 list(enumerate(vetor))
 [(0, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 7), (7, 8), (8, 9)]
 
@@ -164,7 +170,7 @@ while CONDICAO:
     CORPO DO WHILE
 ```
 
-Enquanto a `condição` for `verdadeira` o while é executado 
+Enquanto a `condição` for `verdadeira` o while é executado
 indefinidamente; caso contrário o `while` para sua execução.  
 
 ```Python tab=
@@ -202,10 +208,10 @@ print(vetor[0])
 ```
 
 ```C tab=
-/* Aqui alocamos um vetor de inteiros com 10 elementos, sendo eles todo 
+/* Aqui alocamos um vetor de inteiros com 10 elementos, sendo eles todo
 *  o intervalo [1, 10].
 *  Indicies comecam em 0.
-*/ 
+*/
 int vetor[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 printf("%d", vetor[0]);
 1
@@ -233,7 +239,7 @@ def meu_append(vetor, novo_elemento):
 vetor = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 meu_append(vetor, novo_elemento)
 vetor
-[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] 
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
 ```
 
@@ -275,7 +281,7 @@ print(vetor[2])
 
 #### Armazenamento: **
 
-Memória RAM, registradores do processador (CPU), dispositivo de 
+Memória RAM, registradores do processador (CPU), dispositivo de
 armazenamento secundário (HDDs, SSDs, etc).
 
 ##### Memória RAM **
