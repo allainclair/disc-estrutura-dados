@@ -153,6 +153,33 @@ de mensagens. O programa inicialmente lê a mensagem e codifica da seguinte form
 * Se o número de caracteres for ímpar, o programa acrescenta um caractere '#' 
 no final **antes** de realizar a troca dos pares.
 
+## Exercício 1.9
+
+Considere o código abaixo e responda as questões:
+
+```Python
+if b1 == True:
+    c1 = True
+else:
+     if b2 == True:
+         if b3 == True:
+             c2 = True
+         else:
+             c3 = True
+        c4 = True
+c5 = True
+```
+
+1. Se b1 = `True` , b2 = `True` e b3 = `False`, quais comandos serão executados
+   pelo algoritmo?
+
+2. Se b1 = `False`, b2 = `True` e b3 = `False`, quais comandos serão executados?
+
+3. Se b1 = `False`, b2 = `True` e b3 = `True`, quais comandos serão executados?
+
+4. Quais valores lógicos b1, b2 e b3 devem receber para que somente o comando
+`c5` seja executado? 
+
 ## Fontes:
 
 * [https://www.ic.unicamp.br/~santanch/teaching/alg/2012-1/exercicios.html](
@@ -160,3 +187,6 @@ no final **antes** de realizar a troca dos pares.
 
 * [https://www.inf.pucrs.br/~pinho/LaproI/Exercicios/SeqDecisao/lista1.htm](
   https://www.inf.pucrs.br/~pinho/LaproI/Exercicios/SeqDecisao/lista1.htm).
+
+* [https://dcc.ufrj.br/~leandro/mat/xbt236/Lista1.pdf](
+  https://dcc.ufrj.br/~leandro/mat/xbt236/Lista1.pdf);

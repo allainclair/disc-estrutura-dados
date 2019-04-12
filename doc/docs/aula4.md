@@ -1,7 +1,7 @@
 ## Operador IN
 
 Operador que retorna uma avaliação booleana (True or False). Análogo à 
-notação de conjutos "pertence" (diferente de está contido).
+notação de conjutos "pertence" (diferente de "está contido").
 
  ```Python
  VARIAVEL in ESTRUTURA_QUE_SUPORTA_IN
@@ -23,7 +23,7 @@ lista_mista = [[1, 2, 3, 4], 'a', 'b', 'c']
 lista_de_inteiros in lista_mista
 ```
  
- ## Estruturas de repetição **
+## Estruturas de repetição **
 
 **FOR e WHILE**
 
@@ -40,6 +40,9 @@ Exemplos:
 
 * Para cada x pertencente ao conjunto {1, 2, 3, 4} imprima o dobro de x se x
  for par.
+ 
+Então podemos dizer que da para ler um ** *for* ** da seguinte forma: "para
+cada elemento na lista faça:"
 
 ```Python tab=
 for ELEMENTO in ITERADOR:
@@ -131,6 +134,12 @@ for i, elemento in enumerate(nomes):
     print('Elemento %s: %s', (i, elemento))
 
 ```
+
+#### Exercício
+
+Crie uma função que receba 5 nomes e coloque esses nomes em uma lista1 que 
+está na ordem dos argumentos, e em uma lista2 que está na ordem inversa dos 
+argumentos. (sem usar *reverse*)
 
 ### WHILE *
 
