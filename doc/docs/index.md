@@ -34,3 +34,88 @@ elif MF >= 5.0:
 else:
     print('reprovado')
 ```
+
+## Ementa
+
+Estudo de estruturas de dados para a representação e manipulação de informações. 
+Estudo das estruturas de dados básicas: listas, árvores e suas generalizações.
+
+### Objetivos 
+
+* Estudar as principais estruturas de dados: listas, árvores e tabelas;
+* Estudar os principais métodos de busca e classificação de dados;
+* Noções de complexidade de algoritmos;
+* Estudo da modelagem de tipos abstratos de dados e objetivos;
+* Estudo de modelo de organização de arquivos;
+* Estudar e desenvolver programas em uma linguagem de alto nível.
+
+### Conteúdo Programático
+
+1. Conceitos básicos
+
+    1.1. Tipos Abstrato de Dados;
+
+    1.2. Estruturas de dados;
+
+    1.3. Formas de alocação;
+
+    1.4. Noções de complexidade de algoritmos.
+
+2. Listas
+
+    2.1. Listas lineares estáticas e dinâmicas;
+
+    2.2. Listas circulares e duplamente ligadas;
+
+    2.3. Filas;
+
+    2.4. Pilhas;
+
+    2.5. Algoritmos básicos de gerenciamento.
+
+3. Árvores
+
+    3.1. Árvores binárias;
+
+    3.2. Árvores de pesquisa;
+
+    3.3. Árvores AVL;
+
+    3.4. Árvores-B;
+
+    3.5. Algoritmos básicos de travessia e gerenciamento.
+
+4. Tabelas
+
+    4.1. Pesquisa seqüencial;
+
+    4.2. Pesquisa binária;
+
+    4.3. Estrutura Hashing;
+
+    4.4. Algoritmos básicos de gerenciamento.
+
+5. Classificação interna
+
+    5.1. Classificação por inserção (direta e método dos incrementos 
+  decrescentes);
+
+    5.2. Classificação por troca (método da bolha e método de troca e 
+    partição);
+
+    5.3. Classificação por seleção (método de seleção direta e método de 
+ seleção em árvore);
+
+    5.4. Classificação por distribuição;
+
+    5.5. Classificação por intercalação.
+    
+6. Modelo de organização de arquivos
+    
+    6.1. Seqüencial;
+
+    6.2. Seqüencial Indexado;
+
+    6.3. Indexado;
+
+    6.4. Acesso direto.
