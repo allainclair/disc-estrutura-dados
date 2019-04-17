@@ -63,6 +63,3 @@ lista_de_numeros + lista_de_letras
 people_list.pop()
 'lucas'
 ```
-
-## PARAMOS AQUI!!!!!
-
