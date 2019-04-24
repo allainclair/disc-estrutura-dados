@@ -152,6 +152,8 @@ retorne a posição do elemento encontrado; caso não seja encontrado retorne
 def find(vetor, elemento):
 ```
 
+### Pesquisas
+
 ## Pesquisa sequencial
 
 Dado um elemento, e uma lista, encontre o elemento dentro da lista sem usar 
@@ -160,3 +162,7 @@ o operado `in`.
 ## Pesquisa binária
 
 * Requisito: lista ordenada.
+
+## Recursão
+
+## Hash
