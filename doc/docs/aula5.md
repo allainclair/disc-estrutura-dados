@@ -142,6 +142,12 @@ Endereço  Dado
 100009    '10'
 ```
 
+## Exercício
+
+Crie uma função que receba 5 nomes e coloque esses nomes em uma lista1 que
+está na ordem dos argumentos, e em uma lista2 que está na ordem inversa dos
+argumentos. (sem usar *reverse*)
+
 ## Exercício: encontrar posição de um elemento em um vetor **
 
 Dado um `vetor` e um `elemento` como entrada para uma função chamda de `find`,
@@ -156,7 +162,7 @@ def find(vetor, elemento):
 
 ## Pesquisa sequencial
 
-Dado um elemento, e uma lista, encontre o elemento dentro da lista sem usar 
+Dado um elemento, e uma lista, encontre o elemento dentro da lista sem usar
 o operado `in`.
 
 ## Pesquisa binária

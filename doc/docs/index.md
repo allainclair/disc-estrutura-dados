@@ -13,6 +13,7 @@
 
 * **Site:** [https://allainclair.github.io/disc-estrutura-dados/](
   https://allainclair.github.io/disc-estrutura-dados/);
+* códigos: github.com/allainclair repositório: disc-estrutura-dados;
 * Local: E90, sala 05;
 * Contato de turma: estatisticauem18@gmail.com.
 
@@ -37,10 +38,10 @@ else:
 
 ## Ementa
 
-Estudo de estruturas de dados para a representação e manipulação de informações. 
+Estudo de estruturas de dados para a representação e manipulação de informações.
 Estudo das estruturas de dados básicas: listas, árvores e suas generalizações.
 
-### Objetivos 
+### Objetivos
 
 * Estudar as principais estruturas de dados: listas, árvores e tabelas;
 * Estudar os principais métodos de busca e classificação de dados;
@@ -97,21 +98,21 @@ Estudo das estruturas de dados básicas: listas, árvores e suas generalizaçõe
 
 5. Classificação interna
 
-    5.1. Classificação por inserção (direta e método dos incrementos 
+    5.1. Classificação por inserção (direta e método dos incrementos
   decrescentes);
 
-    5.2. Classificação por troca (método da bolha e método de troca e 
+    5.2. Classificação por troca (método da bolha e método de troca e
     partição);
 
-    5.3. Classificação por seleção (método de seleção direta e método de 
+    5.3. Classificação por seleção (método de seleção direta e método de
  seleção em árvore);
 
     5.4. Classificação por distribuição;
 
     5.5. Classificação por intercalação.
-    
+
 6. Modelo de organização de arquivos
-    
+
     6.1. Seqüencial;
 
     6.2. Seqüencial Indexado;
