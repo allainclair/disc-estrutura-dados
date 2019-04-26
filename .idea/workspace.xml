@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ed448b6-a74f-47c0-9f02-17176175d439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/docs/images/boneca-russa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/docs/images/po_royal.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula5/find.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula5/find.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/docs/aula6.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/docs/aula6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/LEIAME/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/LEIAME/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/application.267712eb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.du.js" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.du.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.jp.js" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.jp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/wordcut.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/modernizr.01ccdecf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/stylesheets/application-palette.224b79ff.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/stylesheets/application.3020aac5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/exercicios1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/exercicios1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/exercicios2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/exercicios2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/for/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/for/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/search/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/search/search_index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/sitemap.xml.gz" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,60 +36,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/mkdocs.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/docs/exercicios3.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aula6/recursion.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/docs/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="960">
-                <caret line="64" selection-start-line="64" selection-end-line="64" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aula5/find.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doc/docs/aula6.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="555">
-                <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <first_editor relative-caret-position="390">
+                <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-end-line="26" selection-end-column="75" />
               </first_editor>
               <second_editor />
             </state>
@@ -379,10 +351,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/docs/images/recursion.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aula5/aula.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aula6/recursion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/docs/exercicios3.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/mkdocs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -396,27 +392,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/docs/exercicios3.md">
+    <entry file="file://$PROJECT_DIR$/aula5/find.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/docs/images/recursion.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/mkdocs.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aula5/aula.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="540">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -427,18 +406,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aula5/find.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/docs/aula6.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="555">
-            <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <first_editor relative-caret-position="390">
+            <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-end-line="26" selection-end-column="75" />
           </first_editor>
           <second_editor />
         </state>
