@@ -25,7 +25,7 @@ def encontrar_todos(lista, elemento):
     saida: [1, 2, 6]
     """
 
-    for i, e in enmurate(lista):
+    for i, e in enumerate(lista):
         if e == elemento:
             return True
 
