@@ -45,7 +45,7 @@ def calc_address(element, size):
     # Usar a funcao hash do python para usar outros elementos nao numericos.
     address = BIG_PRIME * element % size
     print('address', address)
-    return BIG_PRIME * element % size
+    return address
 
 
 def create_hash(size=1000):
@@ -59,7 +59,7 @@ def add_to_hash(hash_, element):
 
 def search_element(hash_, element):
     address = calc_address(element, len(hash_))
-    if hash_[address] is not None:
+    if hash_[address] == element:
         return True
     else:
         return False
