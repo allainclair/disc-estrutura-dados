@@ -1,3 +1,20 @@
+def main():
+    # elements = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 20, 23]
+    elements = list(range(1024))
+    new_list = []
+    for e in elements:
+        new_list.append(e*2)
+    # new_list = [element*2 for element in elements]
+    # elements = []
+    # elements = [1, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    element = 1023
+    result = binsearch_r(new_list, element, 0, len(new_list) - 1)
+    print('Bin search result:', result)
+
+    # i, j = 0, len(elements)
+    # print('Bin serach result:', binsearch_r(elements, element, i, j))
+
+
 def binsearch(elements, element):
     i, j = 0, len(elements) - 1
 
@@ -11,6 +28,7 @@ def binsearch(elements, element):
             i = mid + 1
         else:  # Porque retornar apenas no else, que eh o ultimo?
             return mid
+    return False
 
 
 def binsearch_r(elements, element, start, end):
@@ -22,16 +40,7 @@ def binsearch_r(elements, element, start, end):
             return binsearch_r(elements, element, mid + 1, end)
         else:
             return mid
-
-
-def main():
-    elements = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 20, 23]
-    # elements = [1, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-    element = 13
-    print('Bin serach result:', binsearch(elements, element))
-
-    i, j = 0, len(elements)
-    print('Bin serach result:', binsearch_r(elements, element, i, j))
+    return False
 
 
 if __name__ == '__main__':
