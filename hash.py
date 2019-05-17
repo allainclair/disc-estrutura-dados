@@ -42,10 +42,10 @@ def main():
 
 def calc_address(element, size):
     # "Hash function".
-    # Usar a funcao hash do python para usar outros elementos nao numericos.
     address = BIG_PRIME * element % size
     print('address', address)
     return address
+    # return BIG_PRIME * element % size
 
 
 def create_hash(size=1000):
