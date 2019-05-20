@@ -17,6 +17,8 @@ class List:
 
     def addat_end(self, value):
         """Adiciona ao final da lista ligada."""
+        # TODO Exercicio: Adicionar apenas elementos nao repetidos
+
         # Cria-se novo node.
         new_node = Node(value)
 
@@ -44,12 +46,10 @@ class List:
 
     def print_(self):
         aux_node = self.first_node
-        string = ''
+        # while aux_node != None:
         while aux_node is not None:
             print(aux_node.value, end=' '),
             aux_node = aux_node.next
-        print()
-        return string
 
 
 class Node:
@@ -57,35 +57,35 @@ class Node:
         self.value = value
         self.next = None
 
+def main():
+    # addat_start_tests()
+    addat_end_tests()
+
 
 def addat_start_tests():
+    print('Addat start tests')
     list_ = List()  # Nova lista.
     list_.addat_start(1)
     list_.addat_start(2)
     list_.addat_start(3)
     list_.addat_start(4)
     list_.addat_start(5)
-    return list_
+    list_.print_()
+    print()
 
 
 def addat_end_tests():
+    print('Addat end tests')
     list_ = List()  # Nova lista.
     list_.addat_end(1)
     list_.addat_end(2)
     list_.addat_end(3)
     list_.addat_end(4)
     list_.addat_end(5)
-    return list_
+    # list_.print_()
+    print(list_)
+    print()
 
 
 if __name__ == '__main__':
-    list_ = addat_start_tests()
-    print('Addat start tests')
-    print(list_)
-    list_.print_()
-
-    list_ = addat_end_tests()
-    print('Addat end tests')
-    print(list_)
-    list_.print_()
-
+    main()
