@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9ed448b6-a74f-47c0-9f02-17176175d439" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/docs/aula9.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/docs/aula9.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/docs/exercicios3.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/docs/exercicios3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/docs/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/linkedlist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +19,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/docs/aula10.md">
+        <entry file="file://$PROJECT_DIR$/linkedlist/linkedlist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linkedlist/doubly_linkedlist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/docs/trabalho1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1410">
-                <caret line="94" column="62" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="62" />
+              <first_editor relative-caret-position="240">
+                <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,10 +49,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linkedlist/linkedlist.py">
+        <entry file="file://$PROJECT_DIR$/doc/docs/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1560">
+                <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/mkdocs.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="390">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -71,7 +101,6 @@
         <option value="$PROJECT_DIR$/doc/docs/aula3.md" />
         <option value="$PROJECT_DIR$/doc/docs/exercicios1.md" />
         <option value="$PROJECT_DIR$/doc/docs/for.md" />
-        <option value="$PROJECT_DIR$/doc/docs/index.md" />
         <option value="$PROJECT_DIR$/doc/docs/aula4.md" />
         <option value="$PROJECT_DIR$/aula5/aula.py" />
         <option value="$PROJECT_DIR$/aula5/rec.py" />
@@ -85,9 +114,15 @@
         <option value="$PROJECT_DIR$/doc/docs/aula8.md" />
         <option value="$PROJECT_DIR$/doc/docs/exercicios3.md" />
         <option value="$PROJECT_DIR$/doc/docs/aula9.md" />
-        <option value="$PROJECT_DIR$/doc/mkdocs.yml" />
         <option value="$PROJECT_DIR$/doc/docs/aula10.md" />
+        <option value="$PROJECT_DIR$/classe/pessoa.py" />
+        <option value="$PROJECT_DIR$/doc/docs/exercicios4.md" />
+        <option value="$PROJECT_DIR$/doc/docs/aula11.md" />
         <option value="$PROJECT_DIR$/linkedlist/linkedlist.py" />
+        <option value="$PROJECT_DIR$/linkedlist/doubly_linkedlist.py" />
+        <option value="$PROJECT_DIR$/doc/mkdocs.yml" />
+        <option value="$PROJECT_DIR$/doc/docs/trabalho1.md" />
+        <option value="$PROJECT_DIR$/doc/docs/index.md" />
       </list>
     </option>
   </component>
@@ -100,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,13 +146,18 @@
             <path>
               <item name="disc-estrutura-dados" type="b2602c69:ProjectViewProjectNode" />
               <item name="disc-estrutura-dados" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disc-estrutura-dados" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disc-estrutura-dados" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,9 +203,9 @@
     <frame x="0" y="0" width="1080" height="1920" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49971893" visible="true" weight="0.22348484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915683" visible="true" weight="0.22348484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50028104" side_tool="true" weight="0.22348484" />
+      <window_info id="Favorites" order="2" sideWeight="0.50084317" side_tool="true" weight="0.22348484" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -366,16 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/docs/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="960">
-            <caret line="64" selection-start-line="64" selection-end-line="64" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/docs/aula7.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -408,6 +439,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/docs/aula9.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="21" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/docs/images/list/doubled-linked-list.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classe/pessoa.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/docs/exercicios4.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="765">
+            <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc/docs/exercicios3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -423,31 +480,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/docs/aula9.md">
+    <entry file="file://$PROJECT_DIR$/doc/docs/aula10.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="44" lean-forward="true" selection-start-line="15" selection-end-line="20" selection-end-column="44" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/docs/images/list/doubled-linked-list.svg">
+    <entry file="file://$PROJECT_DIR$/doc/docs/images/list/insercao-inicio.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/mkdocs.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/doc/docs/images/list/insercao-final.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/docs/aula10.md">
+    <entry file="file://$PROJECT_DIR$/doc/docs/images/list/remocoes.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/docs/aula11.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1410">
-            <caret line="94" column="62" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="62" />
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
@@ -455,8 +511,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linkedlist/linkedlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="885">
+          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedlist/doubly_linkedlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/mkdocs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/docs/trabalho1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/docs/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1560">
+            <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,8 @@
 # Disciplina de Estrutura de dados
 
+## **Avisos**
+
+### [Trabalho 1](trabalho1.md)
 
 ## Professor
 
@@ -113,9 +116,9 @@ Estudo das estruturas de dados básicas: listas, árvores e suas generalizaçõe
 
 6. Modelo de organização de arquivos
 
-    6.1. Seqüencial;
+    6.1. Sequencial;
 
-    6.2. Seqüencial Indexado;
+    6.2. Sequencial Indexado;
 
     6.3. Indexado;
 
