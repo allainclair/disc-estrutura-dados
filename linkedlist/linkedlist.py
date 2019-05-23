@@ -7,7 +7,7 @@ class List:
         node = self.first_node
         string = ''
         while node is not None:
-            string += f'{node.value} '
+            string += f'{node.value} '  # string = string + f'{node.value} '
             node = node.next
         return string
 
@@ -51,6 +51,9 @@ class List:
         self.first_node = new_node  # Primeiro node se torna o novo node.
 
     def search(self, value):
+        """Retorna posicao de value na lista caso encontre; caso contrario
+        retorna False
+        """
         node = self.first_node
         i = 0
         while node is not None:
@@ -61,6 +64,9 @@ class List:
         return False
 
     def update(self, value, new_value):
+        """Retorna True se o node da lista foi atualizado; caso contrario
+        retorna False.
+        """
         node = self.first_node
         while node is not None:
             if node.value == value:
@@ -81,18 +87,19 @@ class List:
                 self.first_node = self.first_node.next
                 del node  # Remove-se o node em questao.
                 return True
-
-            prev_node = self.first_node  # Node anterior eh usado.
-            node = prev_node.next  # Node auxiliar para checagem.
-            while node is not None:  # Enquanto nao chegar ao fim da lista.
-                if node.value == value:  # Se encontrar o valor.
-                    # Node anterior aponta para o proximo do node a ser removido.
-                    prev_node.next = node.next
-                    del node  # Exclui-se o node auxiliar.
-                    return True  # Retorna para parar de andar na lista
-                # Percorre-se a lista atualizado os dois nodes.
-                prev_node = node
-                node = node.next
+            else:
+                prev_node = self.first_node  # Node anterior precisa ser salvo.
+                node = prev_node.next  # Node auxiliar para checagem.
+                while node is not None:  # Enquanto nao chegar ao fim da lista.
+                    if node.value == value:  # Se encontrar o valor.
+                        # Node anterior aponta para o proximo do node a ser removido.
+                        prev_node.next = node.next
+                        del node  # Exclui-se o node auxiliar.
+                        return True  # Retorna para parar de andar na lista
+                    # Percorre-se a lista atualizado os dois nodes.
+                    prev_node = node
+                    # prevo_node = prev_node.next
+                    node = node.next
         return False
 
     def remove_first(self, value):
@@ -144,7 +151,7 @@ class List:
                 return True
         return False
 
-    def remove_refactored3(self, value):
+    def improved_remove(self, value):
         if not self.empty():
             return self.remove_first(value) or self.remove_tail(value)
         else:
@@ -178,10 +185,10 @@ class Node:
 
 def main():
     # reset_tests()
-    # removing_tests()
+    removing_tests()
     # addat_end_tests()
     # search_tests()
-    update_tests()
+    # update_tests()
 
 
 def addat_start_tests():
@@ -221,45 +228,46 @@ def removing_tests():
     list_.addat_start(7)
     list_.addat_start(8)
     print(list_)
+    # list_.print_()
 
     value = 8
-    print(f'Revoving {value}:', list_.remove_refactored3(value))
+    print(f'Revoving {value}:', list_.remove(value))
     print(list_)
 
     value = 1
-    print(f'Revoving {value}:', list_.remove_refactored3(value))
+    print(f'Revoving {value}:', list_.remove(value))
     print(list_)
 
     value = 7
-    print(f'Revoving {value}:', list_.remove_refactored3(value))
+    print(f'Revoving {value}:', list_.remove(value))
     print(list_)
 
     value = 4
-    print(f'Revoving {value}:', list_.remove_refactored3(value))
+    print(f'Revoving {value}:', list_.remove(value))
     print(list_)
 
     value = 10
-    print(f'Revoving {value}:', list_.remove_refactored3(value))
+    print(f'Revoving {value}:', list_.remove(value))
     print(list_)
 
     value = 6
-    print(f'Revoving {value}:', list_.remove_refactored3(value))
+    print(f'Revoving {value}:', list_.remove(value))
     print(list_)
 
     value = 5
-    print(f'Revoving {value}:', list_.remove_refactored3(value))
+    print(f'Revoving {value}:', list_.remove(value))
     print(list_)
 
     value = 3
-    print(f'Revoving {value}:', list_.remove_refactored3(value))
+    print(f'Revoving {value}:', list_.remove(value))
     print(list_)
 
     value = 2
-    print(f'Revoving {value}:', list_.remove_refactored3(value))
+    print(f'Revoving {value}:', list_.remove(value))
     print(list_)
 
     value = 0
-    print(f'Revoving {value}:', list_.remove_refactored3(value))
+    print(f'Revoving {value}:', list_.remove(value))
     print(list_)
 
 

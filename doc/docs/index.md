@@ -2,7 +2,9 @@
 
 ## **Avisos**
 
-### [Trabalho 1](trabalho1.md)
+### [Trabalho 1](trabalho1.md) - 2019-06-15 23:59:59 - horário de recebimento;
+
+### Prova 1 - 2019-06-12 - 19:30h - 21:10h - Até lista ligada.
 
 ## Professor
 
