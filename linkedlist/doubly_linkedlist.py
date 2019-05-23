@@ -2,13 +2,6 @@ class List:
     def __init__(self):
         self.first_node = None
 
-
-class Node:
-    def __init__(self, value):
-        self.value = value
-        self.next = None
-        self.prev = None
-
     def print_(self):
         pass
 
@@ -21,5 +14,15 @@ class Node:
     def search(self, value):
         pass
 
+    def remove(self, value):
+        pass
+
     def update(self, value, new_value):
         pass
+
+
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+        self.prev = None

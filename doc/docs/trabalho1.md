@@ -24,3 +24,7 @@ Inserir (início, fim), remover, alterar, buscar e um método de "print_()"
 * Remover retorna `True` ou `False`;
 * Alterar retorna `True` ou `False`;
 * Buscar retorna posição ou `False`.
+
+## Entrega
+
+* Enviar para **afsantos2@uem.br** com título (assunto): **ED 4553 T31 - Nome RA**.
