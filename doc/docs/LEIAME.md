@@ -32,3 +32,8 @@ comando `python3`.
 ## Executando seus `arquivos.py`
 
 Basta usar o comando `python arquivo.py` que seu programa será executado.
+
+## Instalando Python
+
+[Installing Python](
+https://realpython.com/courses/installing-python-windows-macos-linux/)

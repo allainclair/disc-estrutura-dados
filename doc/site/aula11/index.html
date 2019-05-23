@@ -13,7 +13,7 @@
         <meta name="description" content="Disciplina de estrutura de dados">
       
       
-        <link rel="canonical" href="https://allainclair.github.io/disc-estrutura-dados/aula2/">
+        <link rel="canonical" href="https://allainclair.github.io/disc-estrutura-dados/aula11/">
       
       
         <meta name="author" content="Allainclair Flausino dos Santos">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Aula 2 (2019-04-05) - Estrutura de dados</title>
+        <title>Aula 11 (2019-05-22) - Estrutura de dados</title>
       
     
     
@@ -78,7 +78,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#revisao" tabindex="1" class="md-skip">
+      <a href="#lista-ligada" tabindex="1" class="md-skip">
         Ir para o conteúdo
       </a>
     
@@ -104,7 +104,7 @@
                 Estrutura de dados
               </span>
               <span class="md-header-nav__topic">
-                Aula 2 (2019-04-05)
+                Aula 11 (2019-05-22)
               </span>
             
           
@@ -209,65 +209,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Aula 2 (2019-04-05)
-      </label>
-    
-    <a href="./" title="Aula 2 (2019-04-05)" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../aula2/" title="Aula 2 (2019-04-05)" class="md-nav__link">
       Aula 2 (2019-04-05)
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">Índice</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#revisao" title=""Revisão"" class="md-nav__link">
-    "Revisão"
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#exercicio-da-nota-final-e-media-final-nf-e-mf" title="Exercício da Nota Final e Média Final (NF e MF)" class="md-nav__link">
-    Exercício da Nota Final e Média Final (NF e MF)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#exercicio-idade-ano-meses-para-dias" title="Exercício idade ano, meses para dias" class="md-nav__link">
-    Exercício idade ano, meses para dias
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -371,11 +317,106 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../aula11/" title="Aula 11 (2019-05-22)" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Aula 11 (2019-05-22)
+      </label>
+    
+    <a href="./" title="Aula 11 (2019-05-22)" class="md-nav__link md-nav__link--active">
       Aula 11 (2019-05-22)
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lista-ligada" title="Lista ligada" class="md-nav__link">
+    Lista ligada
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#operacoes" title="Operações" class="md-nav__link">
+    Operações
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adicionar" title="Adicionar" class="md-nav__link">
+    Adicionar
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inicio" title="Início" class="md-nav__link">
+    Início
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fim" title="Fim" class="md-nav__link">
+    Fim
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#excluir" title="Excluir" class="md-nav__link">
+    Excluir
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#excluir-tudo-reset" title="Excluir tudo (reset)" class="md-nav__link">
+    Excluir tudo (reset)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#buscar-e-retornar-posicao" title="Buscar e retornar posição" class="md-nav__link">
+    Buscar e retornar posição
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -470,23 +511,64 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#revisao" title=""Revisão"" class="md-nav__link">
-    "Revisão"
+  <a href="#lista-ligada" title="Lista ligada" class="md-nav__link">
+    Lista ligada
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#exercicio-da-nota-final-e-media-final-nf-e-mf" title="Exercício da Nota Final e Média Final (NF e MF)" class="md-nav__link">
-    Exercício da Nota Final e Média Final (NF e MF)
+  <a href="#operacoes" title="Operações" class="md-nav__link">
+    Operações
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#exercicio-idade-ano-meses-para-dias" title="Exercício idade ano, meses para dias" class="md-nav__link">
-    Exercício idade ano, meses para dias
+  <a href="#adicionar" title="Adicionar" class="md-nav__link">
+    Adicionar
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inicio" title="Início" class="md-nav__link">
+    Início
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fim" title="Fim" class="md-nav__link">
+    Fim
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#excluir" title="Excluir" class="md-nav__link">
+    Excluir
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#excluir-tudo-reset" title="Excluir tudo (reset)" class="md-nav__link">
+    Excluir tudo (reset)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#buscar-e-retornar-posicao" title="Buscar e retornar posição" class="md-nav__link">
+    Buscar e retornar posição
   </a>
   
 </li>
@@ -513,84 +595,27 @@
               
                 
                 
-                  <h1>Aula 2 (2019-04-05)</h1>
+                  <h1>Aula 11 (2019-05-22)</h1>
                 
-                <h2 id="revisao">"Revisão"</h2>
-<h3 id="exercicio-da-nota-final-e-media-final-nf-e-mf">Exercício da Nota Final e Média Final (NF e MF)</h3>
-<p>Um professor pretende saber se os seus alunos estão aprovados ou reprovados
-por meio de um programa em Python! O programa pede para o professor
-adicionar a Nota Final (NF) de um determinado aluno, se esse aluno não passar
-com a Nota Final, o sistema também pede a Média Final (MF) desse aluno. Com
-isso, o sistema pode informar se esse aluno passou ou não na disciplina do
-professor. Escreva o <strong>código fonte</strong> em python para o professor! É
-necessário que as notas sejam dadas por meio do teclado com a função <code>input</code>
-e a saída seja impressa na tela com a função <code>print</code>.</p>
-<div class="superfences-tabs">
-<input name="__tabs_1" type="radio" id="__tab_1_0" checked="checked" />
-<label for="__tab_1_0">Python</label>
-<div class="superfences-content"><div class="codehilite"><pre><span></span><span class="k">if</span> <span class="n">NF</span> <span class="o">&gt;=</span> <span class="mf">6.0</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;aprovado&#39;</span><span class="p">)</span>
-<span class="k">elif</span> <span class="n">MF</span> <span class="o">&gt;=</span> <span class="mf">5.0</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;aprovado&#39;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;reprovado&#39;</span><span class="p">)</span>
-</pre></div></div>
-</div>
-<h3 id="exercicio-idade-ano-meses-para-dias">Exercício idade ano, meses para dias</h3>
-<p>Escreve um programa que leia a idade de uma pessoa expressa em anos,
-meses e dias e mostre-a expressa apenas em dias.</p>
-<p>Transforme esse seu programa para uma função chamada <code>idade_dias(anos,
-meses, dias)</code> que recebe os 3 argumentos respectivamente e retorne a idade
-em dias.</p>
-<p>Obs.: assumir que todos anos tenham 365 dias e que todos os meses tenham 30
-dias. (para facilitar o programa)</p>
-<p>Ex:</p>
-<div class="codehilite"><pre><span></span><span class="n">Entrada</span><span class="o">:</span> <span class="mi">10</span> <span class="o">(</span><span class="n">anos</span><span class="o">),</span> <span class="mi">2</span> <span class="o">(</span><span class="n">meses</span><span class="o">),</span> <span class="mi">3</span> <span class="o">(</span><span class="n">dias</span><span class="o">)</span>
-<span class="n">Sa</span><span class="err">í</span><span class="n">da</span><span class="o">:</span> <span class="o">--</span>
-</pre></div>
-
-<div class="superfences-tabs">
-<input name="__tabs_2" type="radio" id="__tab_2_0" checked="checked" />
-<label for="__tab_2_0">Python</label>
-<div class="superfences-content"><div class="codehilite"><pre><span></span><span class="sd">&#39;&#39;&#39;</span>
-<span class="sd">def idade_em_dias(anos, meses, dias):</span>
-<span class="sd">    anos_em_dias = 0</span>
-<span class="sd">    if anos &gt; 0:</span>
-<span class="sd">        anos_em_dias = anos * 365</span>
-<span class="sd">    if meses &gt; 0:</span>
-<span class="sd">        meses_em_dias = meses * 30</span>
-<span class="sd">    resultado = anos_em_dias + meses_em_dias + dias</span>
-<span class="sd">    return resultado</span>
-<span class="sd">&#39;&#39;&#39;</span>
-<span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">Apas duplas</span>
-<span class="sd">&quot;&quot;&quot;</span>
-
-
-<span class="k">def</span> <span class="nf">idade_em_dias</span><span class="p">(</span><span class="n">anos</span><span class="p">,</span> <span class="n">meses</span><span class="p">,</span> <span class="n">dias</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">anos</span><span class="o">*</span><span class="mi">365</span> <span class="o">+</span> <span class="n">meses</span><span class="o">*</span><span class="mi">30</span> <span class="o">+</span> <span class="n">dias</span>
-
-
-<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
-    <span class="c1"># 10 anos 3 meses 2 dias</span>
-    <span class="n">anos</span> <span class="o">=</span> <span class="mi">10</span>
-    <span class="n">meses</span> <span class="o">=</span> <span class="mi">3</span>
-    <span class="n">dias</span> <span class="o">=</span> <span class="mi">2</span>
-
-    <span class="n">anos_em_dias</span> <span class="o">=</span> <span class="n">anos</span><span class="o">*</span><span class="mi">365</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Anos em dias&#39;</span><span class="p">,</span> <span class="n">anos_em_dias</span><span class="p">)</span>
-
-    <span class="n">meses_em_dias</span> <span class="o">=</span> <span class="n">meses</span><span class="o">*</span><span class="mi">30</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Meses em dias&#39;</span><span class="p">,</span> <span class="n">meses_em_dias</span><span class="p">)</span>
-
-    <span class="n">resultado</span> <span class="o">=</span> <span class="n">anos_em_dias</span> <span class="o">+</span> <span class="n">meses_em_dias</span> <span class="o">+</span> <span class="n">dias</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Resultado&#39;</span><span class="p">,</span> <span class="n">resultado</span><span class="p">)</span>
-
-
-<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
-    <span class="n">main</span><span class="p">()</span>
-</pre></div></div>
-</div>
+                <h2 id="lista-ligada">Lista ligada</h2>
+<h3 id="operacoes">Operações</h3>
+<ul>
+<li>Criar lista;</li>
+<li>Adicionar (no começo, no final);</li>
+<li>Buscar por "valor";</li>
+<li>Modificar/Atualizar (dado um "valor");</li>
+<li>Excluir (dado um "valor");</li>
+<li>Excluir lista completa (reset).</li>
+</ul>
+<h3 id="adicionar">Adicionar</h3>
+<h4 id="inicio">Início</h4>
+<p><img alt="insercao-inicio" src="../images/list/insercao-inicio.svg" /></p>
+<h4 id="fim">Fim</h4>
+<p><img alt="insercao-final" src="../images/list/insercao-final.svg" /></p>
+<h3 id="excluir">Excluir</h3>
+<p><img alt="remocoes" src="../images/list/remocoes.svg" /></p>
+<h3 id="excluir-tudo-reset">Excluir tudo (reset)</h3>
+<h3 id="buscar-e-retornar-posicao">Buscar e retornar posição</h3>
                 
                   
                 
@@ -611,7 +636,7 @@ dias. (para facilitar o programa)</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../aula1/" title="Aula 1 (2019-04-03)" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../aula10/" title="Aula 10 (2019-05-17)" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -620,19 +645,19 @@ dias. (para facilitar o programa)</p>
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                Aula 1 (2019-04-03)
+                Aula 10 (2019-05-17)
               </span>
             </div>
           </a>
         
         
-          <a href="../aula3/" title="Aula 3 (2019-04-10)" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../exercicios1/" title="Exercícios 1" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Próximo
                 </span>
-                Aula 3 (2019-04-10)
+                Exercícios 1
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

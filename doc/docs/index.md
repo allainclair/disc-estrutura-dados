@@ -4,6 +4,8 @@
 
 ### [Trabalho 1](trabalho1.md)
 
+* [Instalando Python](LEIAME.md#instalando-python);
+
 ## Professor
 
 * **Nome:** Allan (Allainclair Flausino dos Santos)
