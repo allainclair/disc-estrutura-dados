@@ -3,36 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9ed448b6-a74f-47c0-9f02-17176175d439" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/docs/LEIAME.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/docs/LEIAME.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/LEIAME/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/LEIAME/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/application.267712eb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.du.js" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.du.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.jp.js" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.jp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/lunr.th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/lunr/wordcut.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/modernizr.01ccdecf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/assets/stylesheets/application-palette.224b79ff.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/assets/stylesheets/application.3020aac5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/aula1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/aula2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/aula3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/aula4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/aula5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/aula6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/aula7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula7/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/aula8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula8/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/exercicios1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/exercicios1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/exercicios2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/exercicios2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/exercicios3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/exercicios3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/for/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/for/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/search/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/search/search_index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/site/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/sitemap.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/mkdocs.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,29 +17,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedlist/linkedlist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedlist/doubly_linkedlist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/docs/trabalho1.md">
+        <entry file="file://$PROJECT_DIR$/doc/docs/aula12.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <first_editor relative-caret-position="345">
+                <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -76,25 +29,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/docs/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="6" selection-start-line="6" selection-end-line="6" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/stack/stack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/docs/LEIAME.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="525">
-                <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/queue/queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -102,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/mkdocs.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="345">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -156,12 +103,15 @@
         <option value="$PROJECT_DIR$/classe/pessoa.py" />
         <option value="$PROJECT_DIR$/doc/docs/exercicios4.md" />
         <option value="$PROJECT_DIR$/doc/docs/aula11.md" />
-        <option value="$PROJECT_DIR$/linkedlist/linkedlist.py" />
         <option value="$PROJECT_DIR$/linkedlist/doubly_linkedlist.py" />
-        <option value="$PROJECT_DIR$/doc/mkdocs.yml" />
         <option value="$PROJECT_DIR$/doc/docs/trabalho1.md" />
         <option value="$PROJECT_DIR$/doc/docs/index.md" />
         <option value="$PROJECT_DIR$/doc/docs/LEIAME.md" />
+        <option value="$PROJECT_DIR$/linkedlist/linkedlist.py" />
+        <option value="$PROJECT_DIR$/doc/docs/aula12.md" />
+        <option value="$PROJECT_DIR$/doc/mkdocs.yml" />
+        <option value="$PROJECT_DIR$/stack/stack.py" />
+        <option value="$PROJECT_DIR$/queue/queue.py" />
       </list>
     </option>
   </component>
@@ -185,13 +135,7 @@
             <path>
               <item name="disc-estrutura-dados" type="b2602c69:ProjectViewProjectNode" />
               <item name="disc-estrutura-dados" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disc-estrutura-dados" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disc-estrutura-dados" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,14 +145,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc/docs/images/list" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc/docs/images" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc/docs/images" />
       <recent name="$PROJECT_DIR$/doc/docs/images/list" />
       <recent name="$PROJECT_DIR$/doc/docs" />
-      <recent name="$PROJECT_DIR$/doc/docs/images" />
       <recent name="$PROJECT_DIR$/aula5" />
       <recent name="$PROJECT_DIR$/aula1" />
     </key>
@@ -528,27 +472,13 @@
     <entry file="file://$PROJECT_DIR$/doc/docs/images/list/remocoes.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/docs/aula11.md">
+    <entry file="file://$PROJECT_DIR$/doc/docs/LEIAME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <first_editor relative-caret-position="525">
+            <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedlist/linkedlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedlist/doubly_linkedlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -562,30 +492,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/mkdocs.yml">
+    <entry file="file://$PROJECT_DIR$/linkedlist/doubly_linkedlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedlist/linkedlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="249" column="52" selection-start-line="249" selection-start-column="52" selection-end-line="249" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/docs/aula11.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="435">
+            <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/docs/images/stack-queue/queue.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/docs/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <first_editor relative-caret-position="15">
+            <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="62" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/docs/LEIAME.md">
+    <entry file="file://$PROJECT_DIR$/doc/mkdocs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/docs/aula12.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="525">
-            <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <first_editor relative-caret-position="345">
+            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack/stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
