@@ -27,4 +27,5 @@ Inserir (início, fim), remover, alterar, buscar e um método de "print_()"
 
 ## Entrega
 
-* Enviar para **afsantos2@uem.br** com título (assunto): **ED 4553 T31 - Nome RA**.
+* Enviar para **afsantos2@uem.br** com título (assunto): **ED 4553 T31 - Nome1 RA1
+  Nome2 RA2**.

@@ -7,6 +7,3 @@ class Stack:
 
     def pop(self):
         pass
-
-    def reset(self):
-        pass
