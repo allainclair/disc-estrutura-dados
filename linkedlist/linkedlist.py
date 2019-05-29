@@ -60,7 +60,7 @@ class List:
             if node.value == value:
                 return i
             node = node.next
-            i += 1
+            i += 1  # i = i + 1
         return False
 
     def update(self, value, new_value):
@@ -159,12 +159,12 @@ class List:
 
     def reset(self):
         """Reset the list to size 0"""
-        node = self.first_node
-        while node.next is not None:
-            node_to_del = node
-            node = node.next
+        while self.first_node is not None:
+            node_to_del = self.first_node
+            self.first_node = self.first_node.next
+            del node_to_del.value
+            del node_to_del.next
             del node_to_del
-        self.first_node = None
 
     def empty(self):
         return self.first_node is None  # self.first_node == None
@@ -182,13 +182,20 @@ class Node:
         self.value = value
         self.next = None
 
+    def __str__(self):
+        return self.__repr__()
+
+    def __repr__(self):
+        return f'value: {self.value}'
+
 
 def main():
     # reset_tests()
-    removing_tests()
+    # removing_tests()
     # addat_end_tests()
     # search_tests()
     # update_tests()
+    reset_tests()
 
 
 def addat_start_tests():
@@ -274,14 +281,16 @@ def removing_tests():
 def reset_tests():
     print('Reset tests')
     list_ = List()  # Nova lista.
-    list_.addat_start(1)
-    list_.addat_start(2)
-    list_.addat_start(3)
-    list_.addat_start(4)
-    list_.addat_start(5)
-    list_.addat_start(6)
-    list_.addat_start(7)
-    list_.addat_start(8)
+    for i in range(1, 8 + 1):
+        list_.addat_start(i)
+    # list_.addat_start(1)
+    # list_.addat_start(2)
+    # list_.addat_start(3)
+    # list_.addat_start(4)
+    # list_.addat_start(5)
+    # list_.addat_start(6)
+    # list_.addat_start(7)
+    # list_.addat_start(8)
     print(list_)
     list_.reset()
     print('Reseted list')
@@ -295,7 +304,8 @@ def search_tests():
         list_.addat_end(value)
     print(list_)
     value = 5
-    print(f'Searching {value}:', list_.search(value))
+    buscou = list_.search(value)
+    print(f'Searching {value}:', buscou)
     value = 10
     print(f'Searching {value}:', list_.search(value))
     value = 11
