@@ -8,7 +8,7 @@
 
 ![remocoes](../images/stack-queue/stack.svg)
 
-#### Aplicação: Notação Sulfixo *Postfix*
+#### Aplicação: Notação Sufixo (*Postfix*)
 
 ##### Infixo:
 
