@@ -1,3 +1,8 @@
+## Entrega
+
+* Enviar para **afsantos2@uem.br** com título (assunto): **ED 4553 T31 - Nome1 RA1
+  Nome2 RA2**.
+
 ## Primeira metade
 
 ### Lista de Exercícios 1
@@ -25,7 +30,3 @@ Inserir (início, fim), remover, alterar, buscar e um método de "print_()"
 * Alterar retorna `True` ou `False`;
 * Buscar retorna posição ou `False`.
 
-## Entrega
-
-* Enviar para **afsantos2@uem.br** com título (assunto): **ED 4553 T31 - Nome1 RA1
-  Nome2 RA2**.
