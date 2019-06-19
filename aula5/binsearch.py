@@ -3,13 +3,11 @@ def binsearch(elements, element):
 
     while i <= j:
         mid = (j + i) // 2
-        print('i:', i, 'j:', j)
-        print('mid', mid)
         if element < elements[mid]:
             j = mid - 1
         elif element > elements[mid]:
             i = mid + 1
-        else:  # Porque retornar apenas no else, que eh o ultimo?
+        else:
             return mid
 
 

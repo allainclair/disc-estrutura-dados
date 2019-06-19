@@ -95,7 +95,7 @@ Estudo das estruturas de dados básicas: listas, árvores e suas generalizaçõe
 
 4. Tabelas
 
-    4.1. Pesquisa seqüencial;
+    4.1. Pesquisa sequencial;
 
     4.2. Pesquisa binária;
 

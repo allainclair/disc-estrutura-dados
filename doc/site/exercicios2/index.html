@@ -1,0 +1,987 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Disciplina de estrutura de dados">
+      
+      
+        <link rel="canonical" href="https://allainclair.github.io/disc-estrutura-dados/exercicios2/">
+      
+      
+        <meta name="author" content="Allainclair Flausino dos Santos">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="en, pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.1">
+    
+    
+      
+        <title>Exercícios 2 - Estrutura de dados</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.3020aac5.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.01ccdecf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#21" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://allainclair.github.io/disc-estrutura-dados" title="Estrutura de dados" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Estrutura de dados
+            </span>
+            <span class="md-header-nav__topic">
+              Exercícios 2
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://allainclair.github.io/disc-estrutura-dados" title="Estrutura de dados" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Estrutura de dados
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Introdução" class="md-nav__link">
+      Introdução
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../LEIAME/" title="LEIAME" class="md-nav__link">
+      LEIAME
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aula1/" title="Aula 1 (2019-04-03)" class="md-nav__link">
+      Aula 1 (2019-04-03)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aula2/" title="Aula 2 (2019-04-05)" class="md-nav__link">
+      Aula 2 (2019-04-05)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aula3/" title="Aula 3 (2019-04-10)" class="md-nav__link">
+      Aula 3 (2019-04-10)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aula4/" title="Aula 4 (2019-04-12)" class="md-nav__link">
+      Aula 4 (2019-04-12)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aula5/" title="Aula 5 (2019-04-24)" class="md-nav__link">
+      Aula 5 (2019-04-24)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aula6/" title="Aula 6 (2019-04-26)" class="md-nav__link">
+      Aula 6 (2019-04-26)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aula7/" title="Aula 7 (2019-05-03)" class="md-nav__link">
+      Aula 7 (2019-05-03)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aula8/" title="Aula 8 (2019-05-08)" class="md-nav__link">
+      Aula 8 (2019-05-08)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aula9/" title="Aula 9 (2019-05-10)" class="md-nav__link">
+      Aula 9 (2019-05-10)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aula10/" title="Aula 10 (2019-05-17)" class="md-nav__link">
+      Aula 10 (2019-05-17)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aula11/" title="Aula 11 (2019-05-22)" class="md-nav__link">
+      Aula 11 (2019-05-22)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aula12/" title="Aula 12 (2019-05-24)" class="md-nav__link">
+      Aula 12 (2019-05-24)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../aula13/" title="Aula 13 (2019-05-29)" class="md-nav__link">
+      Aula 13 (2019-05-29)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../exercicios1/" title="Exercícios 1" class="md-nav__link">
+      Exercícios 1
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Exercícios 2
+      </label>
+    
+    <a href="./" title="Exercícios 2" class="md-nav__link md-nav__link--active">
+      Exercícios 2
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#21" title="2.1" class="md-nav__link">
+    2.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22" title="2.2" class="md-nav__link">
+    2.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23" title="2.3" class="md-nav__link">
+    2.3
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231" title="2.3.1" class="md-nav__link">
+    2.3.1
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24" title="2.4" class="md-nav__link">
+    2.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25" title="2.5" class="md-nav__link">
+    2.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#26" title="2.6" class="md-nav__link">
+    2.6
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#261" title="2.6.1" class="md-nav__link">
+    2.6.1
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#27" title="2.7" class="md-nav__link">
+    2.7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#28" title="2.8" class="md-nav__link">
+    2.8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#29" title="2.9" class="md-nav__link">
+    2.9
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#210" title="2.10" class="md-nav__link">
+    2.10
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#211" title="2.11" class="md-nav__link">
+    2.11
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#212" title="2.12" class="md-nav__link">
+    2.12
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#213" title="2.13" class="md-nav__link">
+    2.13
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#214" title="2.14" class="md-nav__link">
+    2.14
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fontes" title="Fontes" class="md-nav__link">
+    Fontes
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../exercicios3/" title="Exercícios 3" class="md-nav__link">
+      Exercícios 3
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../exercicios4/" title="Exercícios 4" class="md-nav__link">
+      Exercícios 4
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../exercicios5/" title="Exercícios 5" class="md-nav__link">
+      Exercícios 5
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../trabalho1/" title="Trabalho 1" class="md-nav__link">
+      Trabalho 1
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../for/" title="FOR" class="md-nav__link">
+      FOR
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#21" title="2.1" class="md-nav__link">
+    2.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22" title="2.2" class="md-nav__link">
+    2.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23" title="2.3" class="md-nav__link">
+    2.3
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231" title="2.3.1" class="md-nav__link">
+    2.3.1
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24" title="2.4" class="md-nav__link">
+    2.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25" title="2.5" class="md-nav__link">
+    2.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#26" title="2.6" class="md-nav__link">
+    2.6
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#261" title="2.6.1" class="md-nav__link">
+    2.6.1
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#27" title="2.7" class="md-nav__link">
+    2.7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#28" title="2.8" class="md-nav__link">
+    2.8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#29" title="2.9" class="md-nav__link">
+    2.9
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#210" title="2.10" class="md-nav__link">
+    2.10
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#211" title="2.11" class="md-nav__link">
+    2.11
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#212" title="2.12" class="md-nav__link">
+    2.12
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#213" title="2.13" class="md-nav__link">
+    2.13
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#214" title="2.14" class="md-nav__link">
+    2.14
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fontes" title="Fontes" class="md-nav__link">
+    Fontes
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Exercícios 2</h1>
+                
+                <h2 id="21">2.1</h2>
+<p>Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o
+valor seja inválido e continue pedindo até que o usuário informe um valor válido.</p>
+<h2 id="22">2.2</h2>
+<p>Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha
+igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as
+informações.</p>
+<h2 id="23">2.3</h2>
+<p>Supondo que a população de um país A seja da ordem de 80000 habitantes com uma
+taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com
+uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número
+de anos necessários para que a população do país A ultrapasse ou iguale a
+população do país B, mantidas as taxas de crescimento.</p>
+<h3 id="231">2.3.1</h3>
+<p>Altere o programa anterior (2.3) permitindo ao usuário informar as 
+populações e as taxas de crescimento iniciais. Valide a entrada e permita repetir
+a operação.</p>
+<h2 id="24">2.4</h2>
+<p>Faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro.
+Depois modifique o programa para que ele mostre os números um ao lado do outro.</p>
+<h2 id="25">2.5</h2>
+<p>Faça um programa que leia 5 números (usando estruturas de repetição) e 
+informe o maior número.</p>
+<h2 id="26">2.6</h2>
+<p>Implemente o método "reverse()" da lista (<code>list.reverse()</code>). Defina uma 
+função chamada inverter.</p>
+<h3 id="261">2.6.1</h3>
+<p>Caso tenha feito o "reverse()" com lista auxiliar (uma nova lista para 
+ajudar você resolver o problema), tente fazer o <em>reverse</em> sem criar listas 
+auxiliares para economizar memória RAM.</p>
+<h2 id="27">2.7</h2>
+<p>Faça um programa que receba o valor de uma dívida e mostre uma tabela com os
+seguintes dados: valor da dívida, valor dos juros, quantidade de parcelas e valor
+da parcela. Os juros e a quantidade de parcelas seguem a tabela abaixo:</p>
+<table>
+<thead>
+<tr>
+<th>Quantidade de Parcelas</th>
+<th>% de Juros sobre o valor inicial da dívida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>3</td>
+<td>10</td>
+</tr>
+<tr>
+<td>6</td>
+<td>15</td>
+</tr>
+<tr>
+<td>9</td>
+<td>20</td>
+</tr>
+<tr>
+<td>12</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<p>Exemplo de saída do programa:</p>
+<table>
+<thead>
+<tr>
+<th>Valor da Dívida</th>
+<th>Valor dos Juros</th>
+<th>Quantidade de Parcelas</th>
+<th>Valor da Parcela</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R$ 1.000,00</td>
+<td>0</td>
+<td>1</td>
+<td>R$  1.000,00</td>
+</tr>
+<tr>
+<td>R$ 1.100,00</td>
+<td>100</td>
+<td>3</td>
+<td>R$    366,00</td>
+</tr>
+<tr>
+<td>R$ 1.150,00</td>
+<td>150</td>
+<td>6</td>
+<td>R$    191,67</td>
+</tr>
+</tbody>
+</table>
+<h2 id="28">2.8</h2>
+<p>Faça um programa para imprimir:
+<div class="codehilite"><pre><span></span>    1
+    2   2
+    3   3   3
+    .....
+    n   n   n   n   n   n  ... n
+</pre></div>
+Para um <strong> <em>n</em> </strong> informado pelo usuário. Use uma função que receba um valor n 
+inteiro e imprima até a n-ésima linha.</p>
+<h2 id="29">2.9</h2>
+<p>Faça um programa para imprimir:
+<div class="codehilite"><pre><span></span>    1
+    1   2
+    1   2   3
+    .....
+    1   2   3   ...  n
+</pre></div>
+Para um <strong> <em>n</em> </strong> informado pelo usuário. Use uma função que receba um valor n 
+inteiro e imprima até a n-ésima linha.</p>
+<h2 id="210">2.10</h2>
+<p>Faça um programa, com uma função que necessite de três argumentos, e que forneça
+a soma desses três argumentos.</p>
+<h2 id="211">2.11</h2>
+<p>Reverso do número. Faça uma função que retorne o reverso de um número inteiro
+informado. Por exemplo: 127 -&gt; 721.</p>
+<h2 id="212">2.12</h2>
+<p>Faça uma função que informe a quantidade de dígitos de um determinado número
+inteiro informado.</p>
+<h2 id="213">2.13</h2>
+<p>Faça um Programa que peça a idade e a altura de 5 pessoas, armazene cada informação
+no seu respectivo vetor. Imprima a idade e a altura na ordem inversa a ordem lida.</p>
+<h2 id="214">2.14</h2>
+<h2 id="fontes">Fontes</h2>
+<p><a href="https://wiki.python.org.br/EstruturaDeRepeticao">https://wiki.python.org.br/EstruturaDeRepeticao</a>;</p>
+<p><a href="https://wiki.python.org.br/ExerciciosFuncoes">https://wiki.python.org.br/ExerciciosFuncoes</a>;</p>
+<p><a href="https://wiki.python.org.br/ExerciciosListas">https://wiki.python.org.br/ExerciciosListas</a>.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../exercicios1/" title="Exercícios 1" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Exercícios 1
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../exercicios3/" title="Exercícios 3" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Exercícios 3
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.dc02f8ce.js"></script>
+      
+        
+        
+          
+          <script src="../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+          
+            
+              
+              
+                <script src="../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+            <script src="../assets/javascripts/lunr/lunr.multi.js"></script>
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>

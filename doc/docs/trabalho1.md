@@ -1,7 +1,7 @@
 ## Entrega
 
-* Enviar para **afsantos2@uem.br** com título (assunto): **ED 4553 T31 - Nome1 RA1
-  Nome2 RA2**.
+Enviar para **afsantos2@uem.br** com título (assunto): **ED 4553 T31 - Nome1 RA1
+Nome2 RA2**.
 
 ## Primeira metade
 
