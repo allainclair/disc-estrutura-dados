@@ -13,7 +13,7 @@
         <meta name="description" content="Disciplina de estrutura de dados">
       
       
-        <link rel="canonical" href="https://allainclair.github.io/disc-estrutura-dados/aula3/">
+        <link rel="canonical" href="https://allainclair.github.io/disc-estrutura-dados/trabalho2/">
       
       
         <meta name="author" content="Allainclair Flausino dos Santos">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Aula 3 (2019-04-10) - Estrutura de dados</title>
+        <title>Trabalho 2 - Estrutura de dados</title>
       
     
     
@@ -81,7 +81,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#algumas-formas-de-print" tabindex="1" class="md-skip">
+      <a href="#implementar-deque" tabindex="1" class="md-skip">
         Ir para o conteúdo
       </a>
     
@@ -107,7 +107,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Aula 3 (2019-04-10)
+                Trabalho 2
               
             </span>
           
@@ -222,52 +222,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Aula 3 (2019-04-10)
-      </label>
-    
-    <a href="./" title="Aula 3 (2019-04-10)" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../aula3/" title="Aula 3 (2019-04-10)" class="md-nav__link">
       Aula 3 (2019-04-10)
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">Índice</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#algumas-formas-de-print" title="Algumas formas de print *" class="md-nav__link">
-    Algumas formas de print *
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#estrutura-de-dado-lista" title="Estrutura de dado lista" class="md-nav__link">
-    Estrutura de dado lista
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -515,11 +474,65 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../trabalho2/" title="Trabalho 2" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Trabalho 2
+      </label>
+    
+    <a href="./" title="Trabalho 2" class="md-nav__link md-nav__link--active">
       Trabalho 2
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#implementar-deque" title="Implementar Deque" class="md-nav__link">
+    Implementar Deque
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-funcionamento-usando-collectionsdeque" title="Exemplo de funcionamento usando collections.deque" class="md-nav__link">
+    Exemplo de funcionamento usando collections.deque
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrega" title="Entrega" class="md-nav__link">
+    Entrega
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -554,15 +567,28 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#algumas-formas-de-print" title="Algumas formas de print *" class="md-nav__link">
-    Algumas formas de print *
+  <a href="#implementar-deque" title="Implementar Deque" class="md-nav__link">
+    Implementar Deque
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-funcionamento-usando-collectionsdeque" title="Exemplo de funcionamento usando collections.deque" class="md-nav__link">
+    Exemplo de funcionamento usando collections.deque
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#estrutura-de-dado-lista" title="Estrutura de dado lista" class="md-nav__link">
-    Estrutura de dado lista
+  <a href="#entrega" title="Entrega" class="md-nav__link">
+    Entrega
   </a>
   
 </li>
@@ -584,75 +610,96 @@
               
                 
                 
-                  <h1>Aula 3 (2019-04-10)</h1>
+                  <h1>Trabalho 2</h1>
                 
-                <h2 id="algumas-formas-de-print">Algumas formas de <code>print</code> *</h2>
-<div class="superfences-tabs">
-<input name="__tabs_1" type="radio" id="__tab_1_0" checked="checked" />
-<label for="__tab_1_0">Python</label>
-<div class="superfences-content"><div class="codehilite"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="s1">&#39;Print com mais do que um argumento&#39;</span><span class="p">,</span> <span class="n">arg1</span><span class="p">,</span> <span class="n">arg2</span><span class="p">)</span>
+                <h2 id="implementar-deque">Implementar Deque</h2>
+<ul>
+<li>Filas (Queues) são estrutura de dados que respeitam a regra do primeiro elemento
+  a entrar é o primeiro a sair (FIFO);</li>
+<li>Fila de Duas Pontas (Double ended queue), como o nome diz, a fila tem duas
+  pontas: uma à direita e outra à esquerda;</li>
+<li>Para inserir e remover na ponta <strong>direita</strong> respectivamente: <code>dq.append(x); dq.pop();</code>
+  igual a fila comum.</li>
+<li>Para inserir e remover na ponta <strong>esquerda</strong> respectivamente:
+  <code>dq.appendleft(x); dq.popleft();</code></li>
+<li>
+<p><strong>O objetivo principal do trabalho é implementar uma Fila de Duas Pontas</strong>
+  (<code>class Deque</code>) com algumas restrições:</p>
+<ul>
+<li><strong>Apenas pilhas</strong> devem ser as estruturas de dados interna da <code>Deque</code> para
+  manipular os itens inseridos (<code>append</code>) e removidos (<code>pop</code>), logo é
+  necessário implementar a estrutura de dado "Pilha" (<code>Stack</code>). Use as pilhas
+  implementadas em sala de aula se achar necessário.</li>
+</ul>
+</li>
+<li>
+<p>Caso a <em>Deque</em> esteja vazia, <strong><code>False</code> deve ser retornado</strong>;</p>
+</li>
+<li>
+<p><strong>Nenhum módulo</strong> (<code>import</code>) pode ser usado para o o trabalho, incluindo o módulo
+  <code>collections</code> que serve de exemplo para mostrar como a Deque deve funcionar.</p>
+</li>
+</ul>
+<h3 id="exemplo-de-funcionamento-usando-collectionsdeque">Exemplo de funcionamento usando <code>collections.deque</code></h3>
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">collections</span>
+<span class="n">dq</span> <span class="o">=</span> <span class="n">collections</span><span class="o">.</span><span class="n">deque</span><span class="p">()</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;dez&#39;</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">dq</span>
+<span class="n">deque</span><span class="p">([</span><span class="mi">10</span><span class="p">])</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Uso do operador &quot;percentage&quot; para string: </span><span class="si">%s</span><span class="s1"> </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">string1</span><span class="p">,</span> <span class="n">string2</span><span class="p">))</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">dq</span>
+<span class="n">deque</span><span class="p">([</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span>
 
-<span class="c1"># Python Version &gt;= 3.7</span>
-<span class="n">string</span> <span class="o">=</span> <span class="s1">&#39;uma string&#39;</span>
-<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;Uma string com interpotalacao: {string}&#39;</span><span class="p">)</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">appendleft</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">appendleft</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">appendleft</span><span class="p">(</span><span class="mi">70</span><span class="p">)</span>
+<span class="n">dq</span>
+<span class="n">deque</span><span class="p">([</span><span class="mi">70</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span>
 
-<span class="k">print</span><span class="p">(</span>
-    <span class="s1">&#39;Evitar linhas de codigos muito extensas pois dificulta a leitura do seu &#39;</span>
-    <span class="s1">&#39;codigo, entao essa eh uma forma de vc quebrar a linha. Existe uma regra &#39;</span>
-    <span class="s1">&#39;de no maximo 79-80 colunas de codigo, tente usar ela, soh que nao tem &#39;</span>
-    <span class="s1">&#39;problema se passar de 80 ou chegar ateh umas 85 colunas. Essa formatacao &#39;</span>
-    <span class="s1">&#39;de codigo desse print pode ser usada nos codigos tambem.&#39;</span><span class="p">)</span>
-
-<span class="k">print</span><span class="p">(</span>
-    <span class="s1">&#39;para quebrar a linha &#39;</span>
-    <span class="s1">&#39;use dessa forma&#39;</span><span class="p">)</span>
-
-<span class="n">funcao</span><span class="p">(</span>
-    <span class="n">argumento1</span><span class="p">,</span> <span class="n">argumento2</span><span class="p">,</span> <span class="n">argumento3</span><span class="p">,</span> <span class="n">argumento4</span><span class="p">,</span> <span class="n">argumento5</span><span class="p">,</span> <span class="n">argumento6</span><span class="p">,</span>
-    <span class="n">argumento7</span><span class="p">,</span> <span class="n">argumento8</span><span class="p">)</span>
-</pre></div></div>
-</div>
-<h2 id="estrutura-de-dado-lista">Estrutura de dado <strong>lista</strong></h2>
-<p>Podemos chamar até de vetor, <em>array</em>, arranjo, sequência, pois uma lista tem
-uma <strong>ordem definida</strong> de elementos e os elementos de uma lista também <strong>podem
-ser repetidos</strong>.</p>
-<div class="superfences-tabs">
-<input name="__tabs_2" type="radio" id="__tab_2_0" checked="checked" />
-<label for="__tab_2_0">Python</label>
-<div class="superfences-content"><div class="codehilite"><pre><span></span><span class="n">lista_de_numeros</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">]</span>
-<span class="n">lista_de_letras</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="s1">&#39;c&#39;</span><span class="p">,</span> <span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="s1">&#39;y&#39;</span><span class="p">,</span> <span class="s1">&#39;z&#39;</span><span class="p">]</span>
-<span class="n">lista_mista</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="s1">&#39;c&#39;</span><span class="p">,</span> <span class="s1">&#39;string&#39;</span><span class="p">,</span> <span class="mf">1.1</span><span class="p">]</span>
-<span class="n">people_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;allan&#39;</span><span class="p">,</span> <span class="s1">&#39;maria&#39;</span><span class="p">,</span> <span class="s1">&#39;jose&#39;</span><span class="p">,</span> <span class="s1">&#39;enzo&#39;</span><span class="p">,</span> <span class="s1">&#39;valentina&#39;</span><span class="p">]</span>
-
-<span class="n">lista_mista</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
-<span class="s1">&#39;b&#39;</span>
-
-<span class="n">people_list</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
-<span class="n">enzo</span>
-
-<span class="nb">len</span><span class="p">(</span><span class="n">people_list</span><span class="p">)</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
 <span class="mi">5</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+<span class="mi">30</span>
 
-<span class="n">people_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;allan&#39;</span><span class="p">)</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">popleft</span><span class="p">()</span>
+<span class="mi">70</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">popleft</span><span class="p">()</span>
+<span class="mi">60</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">popleft</span><span class="p">()</span>
+<span class="mi">50</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">popleft</span><span class="p">()</span>
+<span class="mi">10</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">popleft</span><span class="p">()</span>
+<span class="mi">20</span>
 
-<span class="n">people_list</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;allan&#39;</span><span class="p">)</span>
+<span class="n">dq</span><span class="o">.</span><span class="n">popleft</span><span class="p">()</span>  <span class="c1"># Ao inves do erro, retorne False na sua implementacao</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s2">&quot;&lt;stdin&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="ne">IndexError</span><span class="p">:</span> <span class="n">pop</span> <span class="kn">from</span> <span class="nn">an</span> <span class="nn">empty</span> <span class="nn">deque</span>
+</pre></div>
 
-<span class="n">people_list</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;lucas&#39;</span><span class="p">)</span>
-
-<span class="n">people_list</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;allan&#39;</span><span class="p">)</span>
-
-<span class="n">lista_de_numeros</span> <span class="o">+</span> <span class="n">lista_de_letras</span>
-
-<span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="s1">&#39;c&#39;</span><span class="p">,</span> <span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="s1">&#39;y&#39;</span><span class="p">,</span> <span class="s1">&#39;z&#39;</span><span class="p">]</span>
-
-<span class="n">people_list</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-<span class="s1">&#39;lucas&#39;</span>
-</pre></div></div>
-</div>
+<h2 id="entrega">Entrega</h2>
+<ul>
+<li>
+<p>Entrega: 2019-08-30 23:59:59 - horário de recebimento;</p>
+</li>
+<li>
+<p>Entregar arquivo (anexo) <strong><code>main.py</code></strong> com <strong>classe <code>Deque</code></strong> implementada;</p>
+</li>
+<li>
+<p>Enviar para <strong>afsantos2@uem.br</strong> com título (assunto): <strong>T2 ED 4553 T31 - Nome1 RA1 - Nome2 RA2</strong>;</p>
+</li>
+<li>
+<p>Até 3 membros;</p>
+</li>
+<li>
+<p>Cada dia de atraso desconta-se 10% da nota do trabalho total.</p>
+</li>
+</ul>
                 
                   
                 
@@ -673,7 +720,7 @@ ser repetidos</strong>.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../aula2/" title="Aula 2 (2019-04-05)" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../trabalho1/" title="Trabalho 1" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -682,19 +729,19 @@ ser repetidos</strong>.</p>
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                Aula 2 (2019-04-05)
+                Trabalho 1
               </span>
             </div>
           </a>
         
         
-          <a href="../aula4/" title="Aula 4 (2019-04-12)" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../for/" title="FOR" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Próximo
                 </span>
-                Aula 4 (2019-04-12)
+                FOR
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
