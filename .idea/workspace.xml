@@ -3,8 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="9ed448b6-a74f-47c0-9f02-17176175d439" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/arv-bb.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/tree/arv-bb.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/docs/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/LEIAME/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/LEIAME/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/images/icons/bitbucket.1b09e088.svg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/assets/images/icons/bitbucket.1b09e088.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/images/icons/github.f0b8504a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/assets/images/icons/github.f0b8504a.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/images/icons/gitlab.6dd19c00.svg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/assets/images/icons/gitlab.6dd19c00.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/application.dc02f8ce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/javascripts/modernizr.01ccdecf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/stylesheets/application-palette.224b79ff.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/assets/stylesheets/application.3020aac5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula10/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula11/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula12/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula13/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula13/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula7/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula8/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/aula9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/aula9/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/exercicios1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/exercicios1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/exercicios2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/exercicios2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/exercicios3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/exercicios3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/exercicios4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/exercicios4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/exercicios5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/exercicios5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/for/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/for/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/search/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/search/search_index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/sitemap.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/site/trabalho1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/site/trabalho1/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,15 +72,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tree" />
+      <recent name="$PROJECT_DIR$/doc/docs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/doc/docs" />
       <recent name="$PROJECT_DIR$/doc/docs/images" />
       <recent name="$PROJECT_DIR$/doc/docs/images/list" />
       <recent name="$PROJECT_DIR$/aula5" />
-      <recent name="$PROJECT_DIR$/aula1" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/doc/docs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,7 +142,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
