@@ -6,6 +6,8 @@
 
 Até ams
 
+### Exame 2019-09-04 - 19:30h - 21:10h;
+
 ### [Trabalho 2](trabalho2.md) - Entrega: 2019-08-30 23:59:59 - horário de recebimento;
 
 ### [Trabalho 1](trabalho1.md) - 2019-06-15 23:59:59 - horário de recebimento;

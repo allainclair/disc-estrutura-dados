@@ -4,8 +4,7 @@
   a entrar é o primeiro a sair (FIFO);
 * Fila de Duas Pontas (Double ended queue), como o nome diz, a fila tem duas
   pontas: uma à direita e outra à esquerda;
-* Para inserir e remover na ponta **direita** respectivamente: `dq.append(x); dq.pop();`
-  igual a fila comum.
+* Para inserir e remover na ponta **direita** respectivamente: `dq.append(x); dq.pop();`;
 * Para inserir e remover na ponta **esquerda** respectivamente:
   `dq.appendleft(x); dq.popleft();`
 * **O objetivo principal do trabalho é implementar uma Fila de Duas Pontas**
